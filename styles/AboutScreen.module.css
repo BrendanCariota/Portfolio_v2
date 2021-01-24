@@ -1,0 +1,44 @@
+.AboutScreen {
+  font-family: "Raleway", sans-serif;
+  height: 75vh;
+  width: 100;
+  color: var(--main-color);
+  margin-bottom: 200px;
+}
+
+.about_heading {
+  text-align: center;
+  font-size: 84px;
+  font-weight: bold;
+}
+
+.about_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about_left {
+  width: 40vw;
+  height: 60vh;
+}
+
+.about_desc {
+  font-size: 36px;
+}
+
+.continueSection {
+  display: flex;
+  align-items: center;
+}
+
+.contactBtn {
+  margin-left: 15px;
+  font-size: 42px;
+}
+
+.about_right {
+  width: 500px;
+  height: 616px;
+  background-image: url("../images/Skills\ Sectin.png");
+}
